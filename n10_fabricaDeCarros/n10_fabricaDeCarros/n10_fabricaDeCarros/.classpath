@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- Las carpetas con el código fuente -->
+	<classpathentry output="classes" kind="src" path="source"/>
+	<classpathentry output="test/classes" kind="src" path="test/source"/>
+	<!-- Las carpetas con el código ejecutable -->
+	<classpathentry kind="output" path="classes"/>
+	<!-- Las librerías necesarias del proyecto -->
+	<classpathentry kind="lib" path="test/lib/junit.jar"/>
+	<!-- La configuración del ejecutable -->
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+</classpath>
